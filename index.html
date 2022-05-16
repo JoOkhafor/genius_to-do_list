@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>To Do List</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
 </head>
+
 <body>
 
-  <div class="wrapper">
-    <div id="myDIV" class="header">
-      <h1>Gestionnaire de tâche</h1>
-      <input type="text" id="myInput" placeholder="Add a Task...">
-      <span onclick="newTask()" class="btn-add">Ajouter</span>
+    <div class="wrapper">
+        <div id="myDIV" class="header">
+            <h1>Gestionnaire de tâche</h1>
+            <input type="text" id="myInput" placeholder="Add a Task...">
+            <span onclick="newTask()" class="btn-add bg-icon"> <span class="add-text">Ajouter</span></span>
+        </div>
+
+        <ul id="myUL">
+
+        </ul>
     </div>
-  
-    <ul id="myUL">
 
-    </ul>
-  </div>
+    <script src="script.js"></script>
 
-  <script src="script.js"></script>
-  
 </body>
 
 </html>
